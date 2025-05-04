@@ -1,0 +1,40 @@
+[
+    {
+        "type": "LinkGsm",
+        "id": "linkGsm0",
+        "dependencies": [],
+        "config": {
+            "linkReliability": 70
+        }
+    },
+    {
+        "type": "LinkSat",
+        "id": "linkSat0",
+        "dependencies": [],
+        "config": {}
+    },
+    {
+        "type": "LinkEth",
+        "id": "linkEth0",
+        "dependencies": [],
+        "config": {}
+    },
+    {
+        "type": "MessageSource",
+        "id": "messageSource0",
+        "dependencies": ["linkEth0", "linkEth0"],
+        "config": {
+            "count": 3,
+            "content": "diff says hello"
+        }
+    },
+    {
+        "type": "MessageSource",
+        "id": "messageSource1",
+        "dependencies": ["linkEth0", "linkEth0"],
+        "config": {
+            "count": 2,
+            "content": "another content"
+        }
+    }
+]
