@@ -25,7 +25,7 @@
         "dependencies": ["linkEth0", "linkEth0"],
         "config": {
             "count": 3,
-            "content": "diff says hello"
+            "content": "Diff says hello."
         }
     },
     {
@@ -34,7 +34,7 @@
         "dependencies": ["linkEth0", "linkEth0"],
         "config": {
             "count": 2,
-            "content": "another content"
+            "content": "High priority msg."
         }
     }
 ]
